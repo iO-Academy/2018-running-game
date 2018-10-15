@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    height: 768px;
+    width: 1024px;
+    border: solid black 5px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/background_img.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.topSection {
+    height: 70px;
+    padding: 15px;
+}
+
+.title {
+    width: 300px;
+    margin: 0 auto;
+    border: midnightblue solid 5px;
+    text-align: center;
+}
+
+.gameSection {
+    height: 600px;
+    border: solid black 5px;
+    /*below works and is awaiting an image*/
+    /*background: indianred url("img/grassPic.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+}
+
+.gameSection [type=button] {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black 5px;
+    display: block;
+}
+
+.gameScreen {
+    width: 900px;
+    height: 590px;
+    margin: 0 auto;
+    border: solid black 5px;
+    display: none;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Height30percent {
+    height: 30%;
+}
+
+.character {
+    float: left;
+    height: 100%;
+    width: 100px;
+    border: solid black 1px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.finishLine {
+    float: right;
+    height: 100%;
+    width: 100px;
+    border: solid black 1px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pumpkin {
+    float: right;
+    height: 100%;
+    width: 100px;
+    border: solid black 1px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.scoreSection {
+    height: 118px;
+    width: 100%;
+    padding: 5px;
+}
+
+.instructions {
+    height: 80px;
+    border: solid black 5px;
+    width: 65%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.scoreBox {
+    height: 80px;
+    border: solid black 5px;
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
