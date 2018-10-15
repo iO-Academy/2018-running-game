@@ -10,6 +10,8 @@ function countdown(number) {
     return number - 1
 }
 
+
+
 function Timer() {
     time = 4
     var timer = document.getElementById("timer")
