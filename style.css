@@ -7,9 +7,9 @@ main {
     width: 1024px;
     border: solid black 5px;
     /*below works and is awaiting an image*/
-    /*background: indianred url("img/grassPic.jpg") no-repeat;*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
+    background: indianred url("img/background_img.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .topSection {
@@ -41,7 +41,7 @@ main {
     margin-right: auto;
     margin-left: auto;
     border: solid black 5px;
-    display: none;
+    display: block;
 }
 
 .gameScreen {
@@ -49,7 +49,7 @@ main {
     height: 590px;
     margin: 0 auto;
     border: solid black 5px;
-    display: block;
+    display: none;
     /*below works and is awaiting an image*/
     background: indianred url("img/grassPic.jpg") no-repeat;
     background-size: cover;
