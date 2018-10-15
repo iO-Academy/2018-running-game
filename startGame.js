@@ -1,10 +1,6 @@
 document.getElementById("button").addEventListener('click', function(){
-    setTimeout(startGame, 3000)
     Timer()
 })
-
- function startGame() {
- }
 
 function countdown(number) {
     return number - 1
