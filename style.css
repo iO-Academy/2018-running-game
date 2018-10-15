@@ -26,6 +26,10 @@ main {
 .gameSection {
     height: 600px;
     border: solid black 5px;
+    /*below works and is awaiting an image*/
+    /*background: indianred url("img/grassPic.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
 }
 
 .gameSection [type=button] {
@@ -37,14 +41,56 @@ main {
     margin-right: auto;
     margin-left: auto;
     border: solid black 5px;
+    display: none;
 }
 
 .gameScreen {
     width: 900px;
-    height: 600px;
+    height: 590px;
     margin: 0 auto;
     border: solid black 5px;
-    display: none;
+    display: block;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Height30percent {
+    height: 30%;
+}
+
+.character {
+    float: left;
+    height: 100%;
+    width: 100px;
+    border: solid black 1px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.finishLine {
+    float: right;
+    height: 100%;
+    width: 100px;
+    border: solid black 1px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pumpkin {
+    float: right;
+    height: 100%;
+    width: 100px;
+    border: solid black 1px;
+    /*below works and is awaiting an image*/
+    background: indianred url("img/grassPic.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .scoreSection {
@@ -61,7 +107,6 @@ main {
     margin-right: 10px;
     margin-left: 10px;
     padding: 5px;
-
 }
 
 .scoreBox {
@@ -72,6 +117,4 @@ main {
     margin-right: 10px;
     text-align: center;
     padding-top: 5px;
-
-
 }
