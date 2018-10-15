@@ -10,6 +10,7 @@ main {
     background: indianred url("img/background_img.jpeg") no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
 }
 
 .topSection {
