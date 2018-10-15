@@ -6,20 +6,24 @@ main {
     height: 768px;
     width: 1024px;
     border: solid black 5px;
-    background-image: ;
+    /*below works and is awaiting an image*/
+    /*background: indianred url("img/grassPic.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
 }
 
 .topSection {
     height: 70px;
+    padding: 15px;
 }
 .title {
     width: 300px;
     margin: 0 auto;
     border: midnightblue solid 5px;
+    text-align: center;
 }
 
 .gameSection {
-
     height: 600px;
     border: solid black 5px;
 }
@@ -28,41 +32,46 @@ main {
     height: 50px;
     width: 100px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin-top: 200px;
     margin-right: auto;
     margin-left: auto;
     border: solid black 5px;
-
 }
 
 .gameScreen {
     width: 900px;
+    height: 600px;
     margin: 0 auto;
     border: solid black 5px;
+    display: none;
 }
 
 .scoreSection {
     height: 118px;
     width: 100%;
+    padding: 5px;
 }
 
 .instructions {
-    height:100px;
+    height: 80px;
     border: solid black 5px;
-    width: 45%;
+    width: 65%;
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
+    padding: 5px;
 
 }
 
 .scoreBox {
-    height: 100px;
+    height: 80px;
     border: solid black 5px;
-    width: 20%;
+    width: 30%;
     display: inline-block;
     margin-right: 10px;
     text-align: center;
+    padding-top: 5px;
+
 
 }
