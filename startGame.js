@@ -1,11 +1,16 @@
 document.getElementById("button").addEventListener('click', function(){
     timer()
     hideStartBtn()
+    displayGameScreen()
 })
 
-function hideStartBtn(){
+function hideStartBtn() {
         document.getElementById("button").style.display = "none"
     }
+function displayGameScreen() {
+    document.getElementById("gameScreen").style.display = "block"
+}
+
 
 function countDown(number) {
     return number - 1
