@@ -1,28 +1,35 @@
 document.getElementById("button").addEventListener('click', function(){
-    Timer()
+    timer()
+    hideStartBtn()
 })
 
-function countdown(number) {
+function hideStartBtn(){
+        document.getElementById("button").style.display = "none"
+    }
+
+function countDown(number) {
     return number - 1
 }
+
+var startTimer = document.getElementById("timer")
 
 function createTimer() {
     var timing = setInterval(function () {
         if(time === 1){
             clearInterval(timing)
-            timer.innerHTML = 'Go!!'
+            startTimer.textContent = 'Go!!'
         } else {
-            time = countdown(time)
-            timer.textContent = time
+            time = countDown(time)
+            startTimer.textContent = time
         }
-
     },1000)
 }
 
-function Timer() {
+function timer() {
     time = 4
-    var timer = document.getElementById("timer")
+    var startTimer
     createTimer()
-
 }
+
+
 
