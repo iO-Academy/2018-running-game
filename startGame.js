@@ -6,7 +6,7 @@ $("#startbutton").click( function(){
     createTimer()
     hideStartBtn()
     displayplayScreen()
-    hideGameTitle()
+    hideaboveBox()
     displayGameBox()
     hideTopSection()
 })
@@ -17,25 +17,24 @@ function hideStartBtn() {
 }
 
 // function to make the header disappear
-function hideGameTitle() {
-    document.getElementById("title").style.display = "none"
+function hideaboveBox() {
+    document.getElementById("aboveBox").style.display = "none"
 }
 
 //functions makes the topsection disappear
 
 function hideTopSection() {
-    $("topSection").hide()
+    $("#topSection").hide()
 }
 
     //this means the gameScreen is shown when clicked and has a fade in option
 function displayplayScreen() {
-    var $playScreen = $("playScreen")
+    var $playScreen = $("#playScreen")
     $playScreen.style.visibility = "visible"
     $playScreen.style.zIndex = 1
-    $playScreen.fadeIn(6000)
 }
 
-//initially hides the gameScreen and fades it in alongisde the gameScreen
+//initially hides the gameBox and fades it in alongisde the gameBox
 function displayGameBox() {
     $("#gameBox").hide().animate({height: '670px'}).fadeIn(6000)
 }
