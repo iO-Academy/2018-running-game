@@ -1,5 +1,5 @@
 document.getElementById("button").addEventListener('click', function(){
-    timer()
+    createTimer()
     hideStartBtn()
     displayGameScreen()
 })
@@ -19,6 +19,7 @@ function countDown(number) {
 var startTimer = document.getElementById("timer")
 
 function createTimer() {
+    time = 4
     var timing = setInterval(function () {
         if(time === 1){
             clearInterval(timing)
@@ -28,12 +29,6 @@ function createTimer() {
             startTimer.textContent = time
         }
     },1000)
-}
-
-function timer() {
-    time = 4
-    var startTimer
-    createTimer()
 }
 
 
