@@ -9,7 +9,6 @@ $(document).keydown(function(e) {
     var positionOfMan = parseInt($("#imageBlock").css('left'))
     var positionOfFinish = parseInt($("#finishLine").css('left'))
     finishLine(positionOfMan, positionOfFinish)
-
 })
 
 // This function moves a html element across the screen.
@@ -32,12 +31,11 @@ function finishLine (positionOfMan, positionOfFinish) {
     if (positionOfMan >= positionOfFinish) {
         $("#imageBlock").fadeOut(2000)
         setTimeout(displayFinishMessage, 2000)
-
     }
 }
 
 // This function displays a message when the user reaches the finish line in the game.
 // Can be used to display fanfare when made.
-function displayFinishMessage(){
+function displayFinishMessage () {
     $('#finishedBox').css({"visibility": "visible"});
 }
