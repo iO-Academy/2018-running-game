@@ -2,7 +2,7 @@
 var startTimer = $("#timer")
 var ableToMove = 0
 //this element connects to the start button
-$("#startButton").click( function() {
+$("#startButton").click(function() {
     createTimer()
 })
 
