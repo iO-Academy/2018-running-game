@@ -65,17 +65,6 @@ main {
     position: absolute;
 }
 
-.leftLeg {
-    float: left;
-    height: 10%;
-    width: 5%;
-    background-size: cover;
-    background: url("images_folder/characterLeft.png") no-repeat center;
-    margin-top: 500px;
-    margin-left: 10px;
-    position: absolute;
-}
-
 .pumpkin {
     float: right;
     height: 6%;
