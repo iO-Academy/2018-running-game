@@ -54,7 +54,7 @@ main {
     z-index: -1;
 }
 
-.rightLeg {
+.player {
     float: left;
     height: 10%;
     width: 5%;
