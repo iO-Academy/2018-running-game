@@ -53,9 +53,8 @@ h2 {
 
 .player {
     height: 10%;
-    width: 5%;
     background-size: cover;
-    background: url("images_folder/characterRight.png");
+    background: url("images_folder/characterRight.png") no-repeat;
     margin-left: 10px;
     position: relative;
     top: 535px;
