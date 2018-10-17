@@ -5,8 +5,8 @@
 main {
     height: 768px;
     width: 1024px;
-    border: solid black 5px;
-    background: indianred url("images_folder/startScreenBackground.png") no-repeat;
+    border: solid #000000 5px;
+    background: #cd5c5c url("images_folder/startScreenBackground.png") no-repeat;
     background-size: cover;
     background-position: center;
     opacity: 0.8;
@@ -21,7 +21,7 @@ main {
 .title {
     width: 300px;
     margin: 0 auto;
-    border: white solid 5px;
+    border: #ffffff solid 5px;
     text-align: center;
 }
 
@@ -37,9 +37,9 @@ main {
     margin-top: -400px;
     margin-right: auto;
     margin-left: auto;
-    border: solid white 5px;
+    border: solid #ffffff 5px;
     display: block;
-    color:white;
+    color: #ffffff;
 }
 
 .gameScreen {
@@ -105,19 +105,19 @@ main {
     margin-right: 10px;
     margin-left: 10px;
     padding: 5px;
-    border: solid white 5px;
-    color: white;
+    border: solid #ffffff 5px;
+    color: #ffffff;
 }
 
 .scoreBox {
     height: 80px;
-    border: solid white 5px;
+    border: solid #ffffff 5px;
     width: 30%;
     display: inline-block;
     margin-right: 10px;
     text-align: center;
     padding-top: 5px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     float: right;
 }
