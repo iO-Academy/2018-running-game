@@ -13,9 +13,9 @@ function countDown(number) {
 
 //the function for the timer
 function createTimer() {
-    time = 4
+    var time = 4
     var timing = setInterval(function () {
-        if(time === 1){
+        if (time === 1){
             clearInterval(timing)
             startTimer.text('Go!!')
             ableToMove = 1
