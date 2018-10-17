@@ -17,7 +17,7 @@
     width: 50px;
     border: black solid 1px;
     position: absolute;
-    visibility: visible;
+    display: block;
 }
 
 #finishLine {
@@ -34,7 +34,7 @@
     border: black solid 1px;
     position: absolute;
     left: 100px;
-    visibility: hidden;
+    display: none;
     background-color: green;
     color: white;
 }

@@ -37,5 +37,5 @@ function finishLine (positionOfMan, positionOfFinish) {
 // This function displays a message when the user reaches the finish line in the game.
 // Can be used to display fanfare when made.
 function displayFinishMessage () {
-    $('#finishedBox').css({"visibility": "visible"});
+    $('#finishedBox').css({"display": "block"});
 }
