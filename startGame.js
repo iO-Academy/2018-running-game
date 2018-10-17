@@ -1,5 +1,5 @@
 // This opens the gamescreen on click of the start button.
-$('#startButton').click(function(){
+$('#startButton').click(function() {
     buildGame()
 })
 
