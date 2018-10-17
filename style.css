@@ -17,7 +17,7 @@ main {
 }
 
 .topSection {
-    padding: 20px 15px 15px;
+    padding: 20px;
 }
 
 h2 {
@@ -40,10 +40,6 @@ h2 {
 }
 
 .gameScreen {
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 1000px;
     height: 650px;
     background: url("images_folder/gameScreenBackground.png") no-repeat;
     background-size: cover;
