@@ -8,5 +8,6 @@ function buildGame(){
     $('#aboveSection').css({display: "none"})
     $('#startButton').css({display: "none"})
     $('.topSection').css({display: "none"})
-    $('#playScreen').css({visibility: "visible", zIndex: 1})
+    $('#playScreen').css({display: "block"})
+    $('.middleSection').css({display: "none"})
 }
