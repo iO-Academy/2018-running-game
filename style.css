@@ -6,19 +6,14 @@ main {
     height: 768px;
     width: 1024px;
     border: solid #000000 5px;
-    background: url("images_folder/startScreenBackground.png") no-repeat;
+    background: url("images_folder/startScreenBackground.png");
     background-size: cover;
     background-position: center;
     opacity: 0.8;
 }
 
 .topSection {
-    width: 1024px;
-    height: 70px;
     padding: 20px 15px 15px;
-    display: block;
-    position: fixed;
-    margin: 0 auto;
 }
 
 h2 {
@@ -27,20 +22,16 @@ h2 {
 }
 
 .middleSection {
-     height: 650px;
-}
-
-.button {
-    height: 50px;
-    width: 100px;
+    height: 575px;
+    width: 200px;
     text-align: center;
-    padding: 10px 5px 5px;
-    position: relative;
-    top: 275px;
     margin: 0 auto;
-    border: solid #ffffff 5px;
-    display: block;
     color: #ffffff;
+}
+.middleSection h1 {
+    border: solid #ffffff 5px;
+    position: relative;
+    top: 225px;
 }
 
 .gameScreen {
@@ -52,8 +43,7 @@ h2 {
     background: url("images_folder/gameScreenBackground.png") no-repeat;
     background-size: cover;
     background-position: center;
-    visibility: hidden;
-    z-index: -1;
+    display: none;
 }
 
 .player {
@@ -62,9 +52,9 @@ h2 {
     width: 5%;
     background-size: cover;
     background: url("images_folder/characterRight.png") no-repeat center;
-    margin-top: 500px;
     margin-left: 10px;
     position: absolute;
+    top: 535px;
 }
 
 .pumpkin {
@@ -74,11 +64,11 @@ h2 {
     background: url("images_folder/pumpkinHead.png") no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 530px;
+    position: relative;
+    top: 535px;
 }
 
 .scoreSection {
-    height: 118px;
     width: 100%;
     padding: 5px;
     overflow: hidden;
@@ -90,7 +80,7 @@ h2 {
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
-    padding: 5px;
+    padding: 8px;
     border: solid #ffffff 5px;
     color: #ffffff;
 }
@@ -102,7 +92,7 @@ h2 {
     display: inline-block;
     margin-right: 10px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
     color: #ffffff;
     font-weight: bold;
     float: right;
