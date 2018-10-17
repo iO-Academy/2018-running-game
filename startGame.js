@@ -2,7 +2,7 @@
 var startTimer = $("#timer")
 
 //this element connects to the start button
-$("#startbutton").click( function(){
+$("#startbutton").click( function() {
     createTimer()
 })
 
@@ -22,8 +22,10 @@ function createTimer() {
             time = countDown(time)
             startTimer.text(time)
         }
-    },1000)
+    }, 1000)
 }
+
+
 
 
 
