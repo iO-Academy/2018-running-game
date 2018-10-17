@@ -5,9 +5,9 @@ var storedKeyPress = 65;
 
 $(document).keydown(function(e) {
     var moveDistance = "+=10px";
-    moveLeg(e, moveDistance, "#imageBlock")
-    var positionOfMan = parseInt($("#imageBlock").css('left'))
-    var positionOfFinish = parseInt($("#finishLine").css('left'))
+    moveLeg(e, moveDistance, "#playerProfile")
+    var positionOfMan = parseInt($("#playerProfile").css('left'))
+    var positionOfFinish = parseInt($("#pumpkinFinishLine").css('left'))
     finishLine(positionOfMan, positionOfFinish)
 })
 
@@ -29,7 +29,7 @@ function moveLeg(e, distance, htmlId) {
 // These can be changed in the event listener to work with the different html elements in the actual game
 function finishLine (positionOfMan, positionOfFinish) {
     if (positionOfMan >= positionOfFinish) {
-        $("#imageBlock").fadeOut(2000)
+        $("#playerProfile").fadeOut(2000)
         setTimeout(displayFinishMessage, 2000)
     }
 }
@@ -37,5 +37,6 @@ function finishLine (positionOfMan, positionOfFinish) {
 // This function displays a message when the user reaches the finish line in the game.
 // Can be used to display fanfare when made.
 function displayFinishMessage () {
-    $('#finishedBox').css({"display": "block"});
+    $('#').css({"display": "block"})
+    console.log("Finished")
 }

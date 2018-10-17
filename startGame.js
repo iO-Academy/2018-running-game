@@ -5,9 +5,11 @@ $('#startButton').click(function(){
 
 //function shows the game screen and hides elements that aren't required for the game screen.
 function buildGame(){
-    $('#aboveSection').css({display: "none"})
+    // $('#aboveSection').css({display: "none"})
     $('#startButton').css({display: "none"})
     $('.topSection').css({display: "none"})
     $('#playScreen').css({display: "block"})
-    $('.middleSection').css({display: "none"})
+    // $('.middleSection').css({display: "none"})
 }
+
+
