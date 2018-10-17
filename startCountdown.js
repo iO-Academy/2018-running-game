@@ -11,7 +11,8 @@ function countDown(number) {
     return number - 1
 }
 
-//the function for the timer
+//the function that creates the timer.
+// the timer counts from 3 and then types go whilst populating a variable which allows the character to move.
 function createTimer() {
     var time = 4
     var timing = setInterval(function () {
