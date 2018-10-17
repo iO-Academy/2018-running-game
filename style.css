@@ -18,9 +18,11 @@ main {
     padding: 20px 15px 15px;
     display: block;
     position: fixed;
+    margin: 0 auto;
 }
 
-.topSection h2 {
+h2 {
+    margin: 0;
     text-align: center;
 }
 
@@ -34,7 +36,7 @@ main {
     text-align: center;
     padding: 10px 5px 5px;
     position: relative;
-    top: 200px;
+    top: 275px;
     margin: 0 auto;
     border: solid #ffffff 5px;
     display: block;
