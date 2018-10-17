@@ -1,8 +1,5 @@
 var storedKeyPress = 65;
 
-
-
-
 $(document).keydown(function(e) {
     var moveDistance = "+=10px";
     moveLeg(e, moveDistance, "#playerProfile")
@@ -34,9 +31,10 @@ function finishLine (positionOfMan, positionOfFinish) {
     }
 }
 
+
+
 // This function displays a message when the user reaches the finish line in the game.
 // Can be used to display fanfare when made.
 function displayFinishMessage () {
-    $('#').css({"display": "block"})
-    console.log("Finished")
+    $('#finishedBox').css({"display": "block"})
 }
