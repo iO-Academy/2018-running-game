@@ -1,8 +1,5 @@
 var storedKeyPress = 65;
 
-
-
-
 $(document).keydown(function(e) {
     var moveDistance = "+=10px";
     moveLeg(e, moveDistance, "#playerProfile")
@@ -17,7 +14,7 @@ $(document).keydown(function(e) {
 // and the id of the html element you want to move.
 // It changes the storedKeyPress variable to prevent the same key being pressed twice.
 function moveLeg(e, distance, htmlId) {
-    if ((e.keyCode == 65 && e.keyCode !== storedKeyPress) || (e.keyCode == 68 && e.keyCode !== storedKeyPress)) {
+    if ((e.keyCode == 65 && e.keyCode !== storedKeyPress && ableToMove === 1) || (e.keyCode == 68 && e.keyCode !== storedKeyPress && ableToMove === 1)) {
         $(htmlId).animate({left: distance}, 0, function () {
             storedKeyPress = e.keyCode
         })
@@ -33,6 +30,8 @@ function finishLine (positionOfMan, positionOfFinish) {
         setTimeout(displayFinishMessage, 2000)
     }
 }
+
+
 
 // This function displays a message when the user reaches the finish line in the game.
 // Can be used to display fanfare when made.
