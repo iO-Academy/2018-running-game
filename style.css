@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-main {
+.main {
     height: 768px;
     width: 1024px;
     border: solid #000000 5px;
