@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 main {
     height: 768px;
     width: 1024px;
@@ -28,6 +32,7 @@ h2 {
     margin: 0 auto;
     color: #ffffff;
 }
+
 .middleSection h1 {
     border: solid #ffffff 5px;
     position: relative;
@@ -47,13 +52,12 @@ h2 {
 }
 
 .player {
-    float: left;
     height: 10%;
     width: 5%;
     background-size: cover;
-    background: url("images_folder/characterRight.png") no-repeat center;
+    background: url("images_folder/characterRight.png");
     margin-left: 10px;
-    position: absolute;
+    position: relative;
     top: 535px;
 }
 
@@ -65,7 +69,7 @@ h2 {
     background-size: cover;
     background-position: center;
     position: relative;
-    top: 535px;
+    top: 480px;
 }
 
 .scoreSection {
