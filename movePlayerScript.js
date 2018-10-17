@@ -36,7 +36,7 @@ function moveLeg(e, distance, htmlId) {
 // The position of finish and position of man parameters are variables in the keydown event listener
 // These can be changed in the event listener to work with the different html elements in the actual game
 function finishLine (positionOfMan, positionOfFinish) {
-    if (positionOfMan >= positionOfFinish) {
+    if (positionOfMan >= positionOfFinish - 50) {
         $("#playerProfile").fadeOut(2000)
         setTimeout(displayFinishMessage, 2000)
     }
