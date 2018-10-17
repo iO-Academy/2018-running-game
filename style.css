@@ -85,15 +85,13 @@ h2 {
 }
 
 .styleBox {
-    height: 30px;
     width: 130px;
     position: absolute;
     top: 510px;
     left: 870px;
     display: none;
-    color: white;
-    border: white solid 2px;
-    border-radius: 50px;
+    color: #ffffff;
+    border: #ffffff solid 2px;
     padding: 3px;
     text-align: center;
 }

@@ -2,7 +2,7 @@ var storedKeyPress = 65;
 
 $(document).keydown(function(e) {
     var moveDistance = "+=10px";
-    moveLeg(e, moveDistance, "#playerProfile")
+    moveLeg(e, moveDistance)
     var positionOfMan = parseInt($("#playerProfile").css('left'))
     var positionOfFinish = parseInt($("#pumpkinFinishLine").css('left'))
     finishLine(positionOfMan, positionOfFinish)
@@ -13,27 +13,26 @@ $(document).keydown(function(e) {
 // the distance you want the html element to move
 // and the id of the html element you want to move.
 // It changes the storedKeyPress variable to prevent the same key being pressed twice.
-function moveLeg(e, distance, htmlId) {
+function moveLeg(e, distance) {
     if ((
             e.keyCode == 65 &&
             e.keyCode !== storedKeyPress &&
             character.attr("dataMoving") == 1
         )
-        ||
-        (
+        || (
             e.keyCode == 68 &&
             e.keyCode !== storedKeyPress &&
             character.attr("dataMoving") == 1
         )
         ) {
-        $(htmlId).animate({left: distance}, 0, function () {
+        $("#playerProfile").animate({left: distance}, 0, function () {
             storedKeyPress = e.keyCode
         })
     }
 }
 
 // This function evaluates when the user reaches the finish line in the game
-// The position of finish and position of man parameters are variables in the keydown event listener
+// The position of finish and position of character(the pumpkkin head) parameters are variables in the keydown event listener
 // These can be changed in the event listener to work with the different html elements in the actual game
 function finishLine (positionOfMan, positionOfFinish) {
     if (positionOfMan >= positionOfFinish - 50) {
