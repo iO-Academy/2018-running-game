@@ -1,0 +1,40 @@
+#rightLeg {
+    height: 50px;
+    width: 50px;
+    background-color: dodgerblue;
+    position: absolute;
+}
+
+#imageBlock {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+}
+
+.startLine {
+    height: 50px;
+    width: 50px;
+    border: black solid 1px;
+    position: absolute;
+    visibility: visible;
+}
+
+#finishLine {
+    height: 50px;
+    width: 50px;
+    border: black solid 1px;
+    position: absolute;
+    left: 100px;
+}
+
+#finishedBox {
+    height: 50px;
+    width: 120px;
+    border: black solid 1px;
+    position: absolute;
+    left: 100px;
+    visibility: hidden;
+    background-color: green;
+    color: white;
+}
