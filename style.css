@@ -83,3 +83,14 @@ h2 {
     font-weight: bold;
     float: right;
 }
+
+#finishedBox {
+    height: 50px;
+    width: 120px;
+    border: black solid 1px;
+    position: absolute;
+    left: 100px;
+    display: none;
+    background-color: green;
+    color: white;
+}
