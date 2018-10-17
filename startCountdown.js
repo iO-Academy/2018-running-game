@@ -24,13 +24,3 @@ function createTimer() {
         }
     }, 1000)
 }
-
-
-
-
-
-
-
-
-
-

@@ -9,5 +9,3 @@ function buildGame(){
     $('.topSection').css({display: "none"})
     $('#playScreen').css({display: "block"})
 }
-
-
