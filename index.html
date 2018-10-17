@@ -7,30 +7,29 @@
 </head>
 <body>
 <main>
-    <div id="aboveSection" class="topSection">
-        <div class="title"><h2>Pumpkin Dash</h2></div>
-    </div>
-    <section id="gameBox" class="gameSection">
+    <section id="titleSection" class="title topSection"><h2>Pumpkin Dash</h2></section>
+    <section id="gameBox" class="middleSection">
         <div id="playScreen" class="gameScreen">
             <div class="Height30percent"></div>
             <div class="Height30percent">
-                <div id="rightProfile" class="rightLeg character"></div>
-                <div id="leftProfile" class="leftLeg character"></div>
+
             </div>
             <div class="Height30percent">
+                <div id="rightProfile" class="rightLeg character"></div>
+                <div id="leftProfile" class="leftLeg character"></div>
                 <div  class="pumpkin"></div>
                 <div id="pumpkinTextBox" class="pumpkinFinishText"></div>
             </div>
         </div>
         <div id="startButton" class="button"> Start Game  </div>
     </section>
-    <div id="scoreBoard" class="scoreSection">
+    <section id="scoreBoard" class="scoreSection">
         <div class="instructions">Instructions:
              Race Pumpkin Reaper towards his next victim (giant pumpkin head).
              Press keys 'a' and 's' alternately to move Pumpkin Reaper, as fast as you can.
              Cross the finish line to win the game.</div>
         <div id="timer" class="scoreBox">0:00</div>
-    </div>
+    </section>
 </main>
 </body>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
