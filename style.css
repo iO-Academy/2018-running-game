@@ -6,7 +6,6 @@ main {
     height: 768px;
     width: 1024px;
     border: solid #000000 5px;
-    background-size: cover;
     background: url("images_folder/startScreenBackground.png") no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,17 +54,13 @@ main {
     z-index: -1;
 }
 
-.height30Percent {
-    height: 30%;
-}
-
 .rightLeg {
     float: left;
     height: 10%;
     width: 5%;
     background-size: cover;
     background: url("images_folder/characterRight.png") no-repeat center;
-    margin-top: 120px;
+    margin-top: 500px;
     margin-left: 10px;
     position: absolute;
 }
@@ -76,19 +71,19 @@ main {
     width: 5%;
     background-size: cover;
     background: url("images_folder/characterLeft.png") no-repeat center;
-    margin-top: 120px;
+    margin-top: 500px;
     margin-left: 10px;
     position: absolute;
 }
 
 .pumpkin {
     float: right;
-    height: 20%;
+    height: 6%;
     width: 5%;
     background: url("images_folder/pumpkinHead.png") no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 130px;
+    margin-top: 530px;
 }
 
 .scoreSection {
