@@ -41,6 +41,7 @@ function moveLeg(e, distance) {
 function finishLine () {
         $("#playerProfile").fadeOut(2000)
         setTimeout(displayFinishMessage, 2000)
+        pumpkinStuff()
 }
 
 // This function displays a message when the user reaches the finish line in the game.
