@@ -7,7 +7,7 @@ function pumpkinFall() {
         pumpkins.each(function () {
             pumpkins.css({"display": "block"})
             var random = (Math.random() * 100)  * 50
-            $(this).animate({top: "718px"}, random)
+            $(this).animate({top: "540px"}, random)
         })
     }
 }
