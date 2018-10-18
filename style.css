@@ -48,6 +48,7 @@ h1 {
 .middleSection h1 {
     position: relative;
     top: 125px;
+    cursor: pointer;
 }
 
 .gameScreen {
@@ -126,4 +127,5 @@ h1 {
 
 .returnToStart {
     display: none;
+    cursor: pointer;
 }
