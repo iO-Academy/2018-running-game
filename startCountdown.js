@@ -22,7 +22,6 @@ function createTimer() {
             character.attr("dataMoving", "1")
             setTimeout(function () {
                 startTimer.css({display: "none"})
-                startTimer.text('')
                 setTime()
             }, 1000)
         } else {
