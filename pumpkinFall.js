@@ -4,5 +4,6 @@ function pumpkinStuff(){
         $('.fallingPumpkin').css({"display": "block"})
         var random = (Math.random() * 100)  * 50
         $(this).animate({top: "540px"}, random)
+
     })
 }
