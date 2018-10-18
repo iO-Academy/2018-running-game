@@ -13,7 +13,16 @@ function buildGame() {
     $('.topSection').css({display: "none"})
     $('#playScreen').css({display: "block"})
     $('#startingSection').css({display: "none"})
+    makeNoise("evil")
+}
 
+function makeNoise(noise) {
+    var audioObj = {
+        hoaw: 'audio/Hoaaaw.mp3',
+        evil: 'audio/evil_laugh.wav',
+    }
+    var audio = new Audio(audioObj[noise])
+    audio.play()
 }
 
 //function resets the game by toggling all the setting changed back to their defaults
