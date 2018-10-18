@@ -20,9 +20,9 @@ function resetGame() {
     $('.topSection').css({display: "block"})
     $('#playScreen').css({display: "none"})
     $('#finishedBox').css({display: "none"})
-    $("#playerProfile").css({left: "0px"})
-    $("#playerProfile").css({display: "block"})
+    $("#playerProfile").css({display: "block", left: "0px"})
     $('#resetGame').css({display: "none"})
     startTimer.css({display: "block"})
+    $('.fallingPumpkin').css({display: "none", top: "0px"})
 }
 
