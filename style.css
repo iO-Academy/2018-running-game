@@ -118,11 +118,9 @@ h1 {
 }
   
 .gameCenterDisplay {
-    margin: 0 auto;
     color: #ffffff;
     position: relative;
     top: 175px;
-    font-size: 100px;
 }
 
 .returnToStart {
