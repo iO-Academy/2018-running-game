@@ -1,6 +1,6 @@
-var time = 0
-
 function setTime() {
+    var commenceTimer = $('#timer')
+    commenceTimer.attr('dataTimer', '1')
     var playerTimer = setInterval(function () {
         var positionOfMan = parseInt($("#playerProfile").css('left'))
         var positionOfFinish = parseInt($("#pumpkinFinishLine").css('left'))
@@ -8,9 +8,8 @@ function setTime() {
             finishLine()
             clearInterval(playerTimer)
         }
-        var commenceTimer = document.getElementById("timer")
-        ++time
-        commenceTimer.textContent =  raceTimer(time)
+        commenceTimer.attr('dataTimer', (parseInt(commenceTimer.attr('dataTimer')) + 1))
+        commenceTimer.text(raceTimer(commenceTimer.attr('dataTimer')))
     }, 1000)
 }
 
@@ -22,4 +21,3 @@ function raceTimer() {
         return raceTime
     }
 }
-
