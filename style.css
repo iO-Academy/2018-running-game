@@ -1,9 +1,19 @@
+@font-face {
+    font-family: "Unseen";
+    src: url("fonts/the_unseen.ttf");
+}
+@font-face {
+    font-family: "Nightmare";
+    src: url("fonts/Nemo_Nightmares.ttf");
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: "Unseen", "Times New Roman", sans-serif;
 }
 
 .main {
@@ -20,23 +30,24 @@ body {
     padding: 20px;
 }
 
-h2 {
+h1 {
     margin: 0;
     text-align: center;
+    font-size: 100px;
+    font-family: "Nightmare", "Times New Roman", sans-serif;
 }
 
 .middleSection {
-    height: 575px;
-    width: 200px;
+    height: 495px;
+    width: 400px;
     text-align: center;
     margin: 0 auto;
     color: #ffffff;
 }
 
 .middleSection h1 {
-    border: solid #ffffff 5px;
     position: relative;
-    top: 225px;
+    top: 125px;
 }
 
 .gameScreen {
@@ -64,6 +75,7 @@ h2 {
 }
 
 .instructions {
+    height: 80px;
     width: 65%;
     display: inline-block;
     margin-left: 10px;
