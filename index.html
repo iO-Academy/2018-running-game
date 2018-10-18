@@ -7,11 +7,14 @@
 </head>
 <body>
 <div class="main">
-    <h2 id="titleSection" class="topSection">Pumpkin Dash</h2>
-    <div id="startButton" class="middleSection"><h1>Start Game</h1></div>
+    <h1 id="titleSection" class="topSection">Pumpkin Dash</h1>
+    <div id="startingSection" class="middleSection"><h1 id="startButton">Start Game</h1></div>
     <div id="playScreen" class="gameScreen">
+        <div id="pumpkinContainer"></div>
+        <h1 id="resetGame" class="gameCenterDisplay returnToStart">Return to start screen</h1>
+        <h1 id="countDown" class="gameCenterDisplay"></h1>
         <img id="playerProfile" data-moving="0" class="player" src="images_folder/character.png">
-        <img id="pumpkinFinishLine" class="pumpkin" src="images_folder/pumpkinHead.png">
+        <img id="pumpkinFinishLine" class="pumpkin" src="images_folder/rsz_pumpkin.png">
         <div id="finishedBox" class="styleBox">Yay! Finished!</div>
     </div>
     <section id="scoreBoard" class="scoreSection">
@@ -19,12 +22,14 @@
              Race Pumpkin Reaper towards his next victim (giant pumpkin head).
              Press keys 'a' and 'd' alternately to move Pumpkin Reaper, as fast as you can.
              Cross the finish line to win the game.</div>
-        <div id="timer" class="scoreBox">0:00</div>
+        <div id="timer" class="scoreBox">0 s</div>
     </section>
 </div>
 </body>
 <script src="jQuery_1.12.4.min.js"></script>
 <script src="startGame.js"></script>
 <script src="startCountdown.js"></script>
+<script src="startTimer.js"></script>
 <script src="movePlayerScript.js"></script>
+<script src="pumpkinFall.js"></script>
 </html>
