@@ -49,8 +49,9 @@ h2 {
 
 .player {
     margin-left: 10px;
-    position: relative;
+    position: absolute;
     top: 535px;
+    z-index: 2;
 }
 
 .pumpkin {
@@ -94,4 +95,14 @@ h2 {
     border: #ffffff solid 2px;
     padding: 3px;
     text-align: center;
+}
+
+.startGun {
+    margin: 0 auto;
+    color: #ffffff;
+    position: relative;
+    top: 300px;
+    width: 200px;
+    font-size: 100px;
+    z-index: 1;
 }
