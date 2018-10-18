@@ -27,5 +27,6 @@ function resetGame() {
     startTimer.css({display: "block"})
     $('.fallingPumpkin').css({display: "none", top: "0px"})
     $('#startingSection').css({display: "block"})
+    $('.scoreBox').text('0 s')
 }
 
