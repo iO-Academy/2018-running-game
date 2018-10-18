@@ -12,6 +12,7 @@ function buildGame() {
     $('#startButton').css({display: "none"})
     $('.topSection').css({display: "none"})
     $('#playScreen').css({display: "block"})
+    $("#mainScreen").css({display: "none"})
 }
 
 //function resets the game by toggling all the setting changed back to their defaults
@@ -24,5 +25,6 @@ function resetGame() {
     $("#playerProfile").css({display: "block"})
     $('#resetGame').css({display: "none"})
     startTimer.css({display: "block"})
-}
+    $("#mainScreen").css({display: "block"})
 
+}

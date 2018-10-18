@@ -39,7 +39,6 @@ h1 {
 
 .middleSection {
     height: 495px;
-    width: 400px;
     text-align: center;
     margin: 0 auto;
     color: #ffffff;
@@ -48,6 +47,16 @@ h1 {
 .middleSection h1 {
     position: relative;
     top: 125px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.middleSection h2 {
+    margin: 0 auto;
+}
+
+.middleSection input {
+    margin: 0 auto;
 }
 
 .gameScreen {
@@ -119,4 +128,19 @@ h1 {
 
 .returnToStart {
     display: none;
+}
+
+.rightHandContainer {
+    float: right;
+    width: 300px;
+}
+
+.columns2 {
+    margin-bottom: 3px;
+    width: 45%;
+    height: 30px;
+    border: #ffffff solid 3px;
+    display: inline-block;
+    padding: 5px;
+
 }
