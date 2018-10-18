@@ -1,4 +1,4 @@
-//Function makes pumpkins fall from ceiling to floor once game has finished (fanfare).g
+//Function makes pumpkins fall from ceiling to floor once game has finished (fanfare).
 function pumpkinStuff(){
     $(".fallingPumpkin").each(function () {
         $('.fallingPumpkin').css({"display": "block"})
