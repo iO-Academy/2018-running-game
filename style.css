@@ -109,12 +109,14 @@ h1 {
     text-align: center;
 }
 
-.startGun {
+.gameCenterDisplay {
     margin: 0 auto;
     color: #ffffff;
     position: relative;
     top: 300px;
-    width: 200px;
     font-size: 100px;
-    z-index: 1;
+}
+
+.returnToStart {
+    display: none;
 }
