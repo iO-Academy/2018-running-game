@@ -1,5 +1,5 @@
 //variable which will allow us to insert out timer into right div
-var startTimer = $("#timer")
+var startTimer = $("#countDown")
 var character =  $("#playerProfile")
 //this element connects to the start button
 $("#startButton").click(function() {
@@ -20,6 +20,9 @@ function createTimer() {
             clearInterval(timing)
             startTimer.text('Go!!')
             character.attr("dataMoving", "1")
+            setTimeout(function () {
+                startTimer.css({display: "none"})
+            }, 1000)
         } else {
             time = countDown(time)
             startTimer.text(time)
