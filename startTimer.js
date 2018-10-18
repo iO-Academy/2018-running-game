@@ -1,10 +1,10 @@
-var startTimer = document.getElementById("timer")
+var commenceTimer = document.getElementById("timer")
 var time = 0
 setInterval(setTime, 1000)
 
 function setTime() {
     ++time
-    startTimer.innerHTML = raceTimer(time % 60)
+    commenceTimer.innerHTML = raceTimer(time % 60)
 }
 
 function raceTimer(time) {
