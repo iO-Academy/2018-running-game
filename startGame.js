@@ -24,5 +24,6 @@ function resetGame() {
     $('#resetGame').css({display: "none"})
     startTimer.css({display: "block"})
     $('.fallingPumpkin').css({display: "none", top: "0px"})
+    $('#middleSection').css({display: "block"})
 }
 
