@@ -12,6 +12,8 @@ function buildGame() {
     $('#startButton').css({display: "none"})
     $('.topSection').css({display: "none"})
     $('#playScreen').css({display: "block"})
+    $('#startingSection').css({display: "none"})
+
 }
 
 //function resets the game by toggling all the setting changed back to their defaults
@@ -24,6 +26,6 @@ function resetGame() {
     $('#resetGame').css({display: "none"})
     startTimer.css({display: "block"})
     $('.fallingPumpkin').css({display: "none", top: "0px"})
-    $('#middleSection').css({display: "block"})
+    $('#startingSection').css({display: "block"})
 }
 
