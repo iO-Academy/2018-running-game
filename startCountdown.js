@@ -20,6 +20,7 @@ function createTimer() {
             clearInterval(timing)
             startTimer.text('Go!!')
             character.attr("dataMoving", "1")
+            gameTimer()
             setTimeout(function () {
                 startTimer.css({display: "none"})
             }, 1000)
