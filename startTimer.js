@@ -1,9 +1,17 @@
 var time = 0
 
 function setTime() {
-    var commenceTimer = document.getElementById("timer")
-    ++time
-    commenceTimer.textContent =  raceTimer(time)
+    var playerTimer = setInterval(function () {
+        var positionOfMan = parseInt($("#playerProfile").css('left'))
+        var positionOfFinish = parseInt($("#pumpkinFinishLine").css('left'))
+        if (positionOfMan >= positionOfFinish - 75) {
+            finishLine()
+            clearInterval(playerTimer)
+        }
+        var commenceTimer = document.getElementById("timer")
+        ++time
+        commenceTimer.textContent =  raceTimer(time)
+    }, 1000)
 }
 
 function raceTimer() {
@@ -15,8 +23,3 @@ function raceTimer() {
     }
 }
 
-function gameTimer() {
-    if (character.attr("dataMoving") == 1) {
-        setInterval(setTime, 1000)
-    }
-}

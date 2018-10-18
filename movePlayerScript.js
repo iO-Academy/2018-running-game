@@ -7,9 +7,6 @@ $(document).keydown(function(e) {
         var moveDistance = "+=10px";
         moveLeg(e, moveDistance)
     }
-    if (positionOfMan >= positionOfFinish - 50) {
-        finishLine()
-    }
 })
 
 // This function moves a html element across the screen.
