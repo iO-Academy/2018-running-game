@@ -1,3 +1,4 @@
+//starts a timer on start of race and stops it when the player reaches the finish line
 function setTime() {
     var commenceTimer = $('#timer')
     commenceTimer.attr('dataTimer', '0')
@@ -13,6 +14,8 @@ function setTime() {
     }, 1000)
 }
 
+
+//puts the race time into the timer div on game page
 function raceTimer() {
     return $('#timer').attr('dataTimer') + ' s'
 }
