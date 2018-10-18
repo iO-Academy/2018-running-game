@@ -109,6 +109,12 @@ h1 {
     text-align: center;
 }
 
+.fallingPumpkin {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+  
 .gameCenterDisplay {
     margin: 0 auto;
     color: #ffffff;
