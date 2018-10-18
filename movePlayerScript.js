@@ -39,7 +39,7 @@ function finishLine () {
     setTimeout(displayFinishMessage, 2000)
     setTimeout(displayResetGame, 3000)
     character.attr("dataMoving", "0")
-    pumpkinStuff()
+    pumpkinFall()
 }
 
 // This function displays a message when the user reaches the finish line in the game.

@@ -1,5 +1,5 @@
 //Function makes pumpkins fall from ceiling to floor once game has finished (fanfare).
-function pumpkinStuff(){
+function pumpkinFall(){
     $(".fallingPumpkin").each(function () {
         $('.fallingPumpkin').css({"display": "block"})
         var random = (Math.random() * 100)  * 50
