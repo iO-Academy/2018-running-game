@@ -43,13 +43,11 @@ function finishLine () {
 }
 
 // This function displays a message when the user reaches the finish line in the game.
-// Can be used to display fanfare when made.
 function displayFinishMessage () {
     $('#finishedBox').css({"display": "block"})
 }
 
 // This function displays a message when the user reaches the finish line in the game.
-// Can be used to display fanfare when made.
 function displayResetGame () {
     $('#resetGame').css({"display": "block"})
 }
