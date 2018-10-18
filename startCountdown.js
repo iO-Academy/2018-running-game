@@ -20,10 +20,10 @@ function createTimer() {
             clearInterval(timing)
             startTimer.text('Go!!')
             character.attr("dataMoving", "1")
-            gameTimer()
             setTimeout(function () {
                 startTimer.css({display: "none"})
                 startTimer.text('')
+                setTime()
             }, 1000)
         } else {
             time = countDown(time)
