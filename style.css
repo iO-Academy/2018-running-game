@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-main {
+.main {
     height: 768px;
     width: 1024px;
     border: solid #000000 5px;
@@ -54,9 +54,9 @@ h2 {
 }
 
 .pumpkin {
-    float: right;
-    position: relative;
+    position: absolute;
     top: 555px;
+    left: 950px;
 }
 
 .scoreSection {
@@ -82,4 +82,16 @@ h2 {
     color: #ffffff;
     font-weight: bold;
     float: right;
+}
+
+.styleBox {
+    width: 130px;
+    position: absolute;
+    top: 510px;
+    left: 870px;
+    display: none;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+    padding: 3px;
+    text-align: center;
 }
