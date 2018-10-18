@@ -5,6 +5,7 @@ $('#startButton').click(function() {
 
 // This opens the gamescreen on click of the start button.
 $('#resetGame').click(function() {
+    $('#pumpkinContainer').text('')
     resetGame()
 })
 //function shows the game screen and hides elements that aren't required for the game screen.
