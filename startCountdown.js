@@ -22,6 +22,7 @@ function createTimer() {
             character.attr("dataMoving", "1")
             setTimeout(function () {
                 startTimer.css({display: "none"})
+                startTimer.text('')
             }, 1000)
         } else {
             time = countDown(time)
