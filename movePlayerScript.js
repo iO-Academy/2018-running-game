@@ -8,6 +8,7 @@ $(document).keydown(function(e) {
         moveLeg(e, moveDistance)
     }
     if (positionOfMan >= positionOfFinish - 50) {
+        addToScoreBoard()
         finishLine()
     }
 })
@@ -43,6 +44,12 @@ function finishLine () {
     setTimeout(displayFinishMessage, 2000)
     setTimeout(displayResetGame, 3000)
     character.attr("dataMoving", "0")
+}
+
+function addToScoreBoard() {
+    var newPlayerName = document.getElementById('playerNameInput').value
+    document.getElementById('leaderBoard').innerHTML += "<div class=\"columns2\">" + newPlayerName + "</div>\n" +
+        "<div class=\"columns2\">Time:</div>"
 }
 
 // This function displays a message when the user reaches the finish line in the game.
